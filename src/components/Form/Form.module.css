@@ -1,0 +1,74 @@
+.form > .barra{
+    height: 15px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+}
+.form > .barra > .carrega{
+    background-color:rgb(35, 220, 18);
+    height: 100%;
+    width: 0%;
+   border-radius: 10px;
+    
+    position: absolute;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    background-color: blueviolet;
+    max-width: 800px;
+    min-width: 80%;
+    margin: 90px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.form div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form input,
+select {
+    margin: 0px auto;
+    padding: 16px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.form input {
+    border: none;
+}
+
+button{
+    padding: 16px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(35, 220, 18);
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:disabled{
+    opacity: 0.5;
+    transform: scale(1);
+}
